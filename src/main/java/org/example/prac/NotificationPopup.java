@@ -9,6 +9,8 @@ public class NotificationPopup {
     Label notificationLabel;
     TextArea detailText;
     Timer timer;
+    TextArea textEditor;
+
 
     NotificationPopup() {
 
@@ -23,6 +25,7 @@ public class NotificationPopup {
 
         notificationLabel = new Label("🔔 New Notification!");
         notificationFrame.add(notificationLabel);
+
 
         detailFrame = new Frame("Notification Details");
         detailFrame.setSize(400, 300);
