@@ -18,7 +18,7 @@ public class print1_n {
         System.out.println("enter a Number: ");
         int n=sc.nextInt();
 
-        printnums(n);
+        printnums(n); //learn basics
 
     }
 }
